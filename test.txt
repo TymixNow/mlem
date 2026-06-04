@@ -1,0 +1,320 @@
+person
+body
+population
+body part
+
+anthropomorphise
+
+
+
+human [adjective]
+they
+it
+they [plural]
+they [plural inanimate]
+
+unify
+somewhere
+sometime
+
+one [numeral]
+watchperson
+eye
+guard [collective]
+pair of eyes
+see
+show
+in eye's range
+
+visibly
+visible
+you
+this [distal]
+you [plural]
+these [distal]
+do that
+cause that
+there
+then
+because
+this [adjective]
+bird
+sky
+flock
+
+rise [intransitive]
+raise [transitive]
+above
+
+rising [adverb]
+high
+
+
+a select few
+
+lessen [intransitive]
+decimate
+in few places
+rarely
+with little effect
+few [quantifier]
+nobody
+nothing
+
+
+do nothing
+inhibit
+nowhere
+never
+with no effect
+none
+everybody
+everything
+
+
+
+
+everywhere
+always
+
+all
+good person
+good thing
+friends
+values
+
+help / fix
+right place
+right time
+with good effects
+good
+bad person
+bad thing
+enemies
+problems
+
+break / disturb
+wrong place
+wrong time
+with bad effects
+bad
+
+clock
+
+time
+last [verb]
+prolong
+
+
+for a long time
+long [temporal]
+close person
+
+close ones
+surroundings
+be near
+approach
+near
+near [temporal]
+causing to become closer [adverb]
+near [adj]
+
+finger
+
+hand
+touch
+connect
+on / adjacent / touching
+
+
+touching [adjective]
+child
+
+siblings
+
+shrink [intransitive]
+shrink [transitive]
+
+for a short time
+
+small [adjective]
+artisan
+tool
+guild
+workshop
+make
+inspire
+
+
+
+creative
+front guardian
+ear
+front guard [collective]
+pair of ears
+hear
+make a sound
+within hearing range
+
+loudly
+loud
+me
+this [proximal]
+us
+these [proximal]
+
+
+here
+now
+
+
+orator
+mouth
+lounge
+face
+say
+ask
+
+
+
+verbal
+local person
+leg
+local population
+pair of legs
+go
+call
+
+
+moving
+local [adjective]
+deadman
+dead body
+the dead
+sarcophagus / catacombs
+die
+kill
+
+
+lethally
+dead
+bug / worm / fungus
+earth
+colony
+
+fall
+drop
+below
+
+falling [adverb]
+low
+
+
+many people
+
+multiply [intransitive]
+multiply [transitive]
+in many places
+often
+efficiently
+many [quantifier]
+somebody
+something
+somebody [plural]
+something [plural]
+exist
+
+somewhere
+sometimes
+with some effects
+some [quantifier]
+adult
+
+
+
+grow [intransitive]
+enlarge
+
+long time
+very
+big
+
+
+
+
+want
+cause sb to want
+
+
+wanting [adverb]
+wanting [adjective]
+wise man
+thought
+jury
+wisdom
+think
+cause sb to think
+
+
+interestingly
+interesting
+fighter
+weapon
+army
+arsenal
+do
+cause
+
+
+thus / therefore
+
+owner
+property
+
+
+have
+give
+
+
+
+own [adjective]
+creature
+plant
+fauna
+flora
+live
+animate
+
+
+
+alive
+another person
+another thing
+others
+other things
+increase [intransitive]
+increase [transitive]
+somewhere else
+some other time
+more [adverb]
+more numerous
+artist
+feeling
+style
+emotion [collective]
+feel
+affect
+
+
+strongly
+emotion-causing
+outcast / different person
+difference
+kind
+description
+differ
+change [transitive]
+in a different place
+at a different time
+variably
+different
