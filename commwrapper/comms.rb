@@ -15,6 +15,10 @@ class Comms
         alias_method :open, :new
     end
 
+    def comment(c)
+        print q
+    end
+
     def ask(q)
         if @wmode then
             print q
