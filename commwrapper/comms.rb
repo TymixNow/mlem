@@ -1,8 +1,10 @@
 class Comms
     @wmode
     @file
+    @filename
 
     def initialize(f, mode)
+        @filename = f
         @wmode = mode
         if @wmode then
             @file = File.open(f, "a")
@@ -11,12 +13,18 @@ class Comms
         end
     end
 
+    def add
+        @file.close
+        @file = File.open(f, "a")
+        @wmode = true
+    end
+
     class << self
         alias_method :open, :new
     end
 
     def comment(c)
-        print q
+        print c
     end
 
     def ask(q)

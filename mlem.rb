@@ -4,9 +4,10 @@ class MLEM
     @phon
     @lex
     attr_accessor :phon, :lex
-    def initialize
+    def initialize(file, mode)
         @phon = []
         @lex = []
+        pref(file, mode)
     end
     def suff(file, mode)
         comm = Comms.open(file, mode)
