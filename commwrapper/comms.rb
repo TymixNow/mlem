@@ -1,22 +1,22 @@
 class Comms
     @wmode
     @file
-    @filename
+    @cache
 
-    def initialize(f, mode)
-        @filename = f
+    def initialize(file, mode = false)
+        mode ||= !File.file?(file)
         @wmode = mode
+        @cache = ""
         if @wmode then
-            @file = File.open(f, "a")
+            @file = File.open(file, "a")
         else
-            @file = File.open(f, "r")
+            @file = File.open(file, "r")
         end
     end
 
-    def add
-        @file.close
-        @file = File.open(f, "a")
-        @wmode = true
+    def ended?
+        return false if @wmode
+        return @file.eof?
     end
 
     class << self
@@ -27,11 +27,12 @@ class Comms
         print c
     end
 
-    def ask(q)
+    def ask(q, saves = true)
         if @wmode then
             print q
             ans = gets.chomp
-            @file.puts ans
+            @cache += "#{ans}\n"
+            save() if saves
             return ans
         else
             print q
@@ -39,6 +40,15 @@ class Comms
             puts ans
             return ans
         end
+    end
+
+    def save
+        @file.puts(@cache)
+        drop()
+    end
+
+    def drop
+        @cache = ""
     end
 
     def close

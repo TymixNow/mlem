@@ -4,13 +4,13 @@ class MLEM
     @phon
     @lex
     attr_accessor :phon, :lex
-    def initialize(file, mode)
+    def initialize(file)
         @phon = []
         @lex = []
-        pref(file, mode)
+        pref(file)
     end
-    def suff(file, mode)
-        comm = Comms.open(file, mode)
+    def suff(file)
+        comm = Comms.open(file)
         out_p = []
         out_l = []
         comm.comment("Suffixes: ")
@@ -26,8 +26,8 @@ class MLEM
         @lex << out_l
         comm.close
     end
-    def pref(file, mode)
-        comm = Comms.open(file, mode)
+    def pref(file)
+        comm = Comms.open(file)
         out_p = []
         out_l = []
         comm.comment("Prefixes: ")
@@ -43,8 +43,8 @@ class MLEM
         @lex.unshift(out_l)
         comm.close
     end
-    def apply(file, mode)
-        comm = Comms.open(file, mode)
+    def apply(file)
+        comm = Comms.open(file)
         out_p = []
         out_l = []
         comm.comment("Multiplication: ")
